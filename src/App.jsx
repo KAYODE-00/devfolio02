@@ -4,6 +4,9 @@ import Hero from './Sections/Hero'
 import ServiceSummary from "./sections/ServiceSummary";
 import Services from "./sections/Services";
 import ReactLenis from "lenis/react";
+import About from './Sections/About';
+import Works from './Sections/Works';
+
 
 
 
@@ -13,11 +16,10 @@ const App = () => {
 <Navbar />
         <Hero />
         <ServiceSummary />
-
         <Services />
-        {/* <About />
+        <About />
         <Works />
-        <ContactSummary />
+        {/* <ContactSummary />
         <Contact /> */}
     </ReactLenis>
   )
