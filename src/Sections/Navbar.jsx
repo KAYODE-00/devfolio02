@@ -99,7 +99,7 @@ const Navbar = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const navigations = ["Home", "Services", "About", "Work", "Contact"];
+  const navigations = ["home", "services", "about", "work", "contact"];
   return (
     <>
       <nav
