@@ -1,81 +1,83 @@
 // index.js
 export const servicesData = [
   {
-    title: "FullStack Development",
+    title: "Frontend Development",
     description:
       "Your business deserves a fast, secure, and future-proof digital foundation. I develop custom web apps with clean architecture, optimized databases, and seamless integrations—ensuring reliability at every layer.",
     items: [
       {
-        title: "Backend Engineering",
-        description: "(REST/GraphQL APIs, Microservices, Auth Systems)",
+        title: "React",
       },
       {
-        title: "Frontend Excellence",
-        description: "(React, Vue, TypeScript, Interactive UI/UX)",
+        title: "Next js",
       },
       {
-        title: "Database Design",
-        description: "(SQL/NoSQL Optimization, Scalable Structures)",
+        title: "Framer-Motion",
+      },
+      {
+        title: "CSS",
+      },
+      {
+        title: "Tailwind",
+      },
+      {
+        title: "Shadcn UI",
+      },
+      {
+        title: "Accernity UI",
       },
     ],
   },
   {
-    title: "DevOps & Cloud Solutions",
+    title: "Backend Devfelopment",
     description:
-      "Deploying software shouldn't be a gamble. I automate infrastructure, enforce security, and leverage cloud platforms (AWS/Azure) to keep your app running smoothly—24/7, at any scale.",
+      "I build full stack apss using strong Backend as a service(BAAS) plartforms",
     items: [
       {
-        title: "CI/CD Pipelines",
-        description: "(GitHub Actions, Docker, Kubernetes)",
+        title: "Supabase",
+      }, {
+        title: "Firebase",
       },
       {
-        title: "Server Management ",
-        description: "(Linux, Nginx, Load Balancing)",
+        title: "Clerk ",
       },
       {
-        title: "Performance Tuning",
-        description: "(Caching, Compression, Lighthouse 90+ Scores)",
+        title: "Neon DB",
+      },
+      {
+        title: "Upload Thing",
       },
     ],
   },
   {
-    title: "Security & Optimization",
+    title: "UI/UX",
     description:
       "Slow or hacked apps destroy trust. I harden security (XSS/SQLI protection, OAuth) and optimize bottlenecks so your app stays fast, safe, and scalable as you grow.",
     items: [
       {
-        title: "Code Audits",
-        description: "(Refactoring, Tech Debt Cleanup)",
-      },
-      {
-        title: "Pen Testing",
-        description: "(Vulnerability Assessments)",
-      },
-      {
-        title: "SEO Tech Stack",
-        description: "(SSR, Metadata, Structured Data)",
+        title: "Figma",
       },
     ],
   },
-  {
-    title: "Web & Mobile Apps",
-    description:
-      "A clunky interface can sink even the best ideas. I craft responsive, pixel perfect web and mobile apps (React Native/Flutter) that users love—bridging design and functionality seamlessly.",
-    items: [
-      {
-        title: "Cross-Platform Apps",
-        description: "(Single codebase for iOS/Android/Web)",
-      },
-      {
-        title: "PWAs",
-        description: "(Offline mode, Push Notifications)",
-      },
-      {
-        title: "E-Commerce",
-        description: "(Checkout flows, Payment Gateways, Inventory APIs)",
-      },
-    ],
-  },
+  // {
+  //   title: "Web & Mobile Apps",
+  //   description:
+  //     "A clunky interface can sink even the best ideas. I craft responsive, pixel perfect web and mobile apps (React Native/Flutter) that users love—bridging design and functionality seamlessly.",
+  //   items: [
+  //     {
+  //       title: "Cross-Platform Apps",
+  //       description: "(Single codebase for iOS/Android/Web)",
+  //     },
+  //     {
+  //       title: "PWAs",
+  //       description: "(Offline mode, Push Notifications)",
+  //     },
+  //     {
+  //       title: "E-Commerce",
+  //       description: "(Checkout flows, Payment Gateways, Inventory APIs)",
+  //     },
+  //   ],
+  // },
 ];
 export const projects = [
   {
@@ -173,9 +175,9 @@ export const projects = [
 export const socials = [
   { name: "Instagram", href: "https://www.instagram.com/ali.sanatidev/reels/" },
   {
-    name: "Youtube",
+    name: "Twitter",
     href: "https://www.youtube.com/channel/UCZhtUWTtk3bGJiMPN9T4HWA",
   },
   { name: "LinkedIn", href: "https://www.linkedin.com/in/ali-sanati/" },
-  { name: "GitHub", href: "https://github.com/Ali-Sanati" },
+  { name: "GitHub", href: "https://github.com/kayode-00" },
 ];
