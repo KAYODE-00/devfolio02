@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import Marquee from "../components/Marquee";
+import Marquee from "../Components/Marquee";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 

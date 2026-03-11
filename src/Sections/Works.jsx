@@ -1,5 +1,5 @@
 import { Icon } from "@iconify/react/dist/iconify.js";
-import AnimatedHeaderSection from "../components/AnimatedHeaderSection";
+import AnimatedHeaderSection from "../Components/AnimatedHeaderSection";
 import { projects } from "../constants";
 import { useRef, useState } from "react";
 import gsap from "gsap";
@@ -131,7 +131,7 @@ const Works = () => {
             {/* title */}
             <div className="flex justify-between px-10 text-black transition-all duration-500 md:group-hover:px-12 md:group-hover:text-white">
               <h2 className="lg:text-[32px] text-[26px] leading-none">
-                {project.name}
+               <a href={project.href}>{project.name}</a>
               </h2>
               <Icon icon="lucide:arrow-up-right" className="md:size-6 size-5" />
             </div>

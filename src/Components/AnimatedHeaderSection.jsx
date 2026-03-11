@@ -1,6 +1,6 @@
 import React from "react";
 import { useRef } from "react";
-import { AnimatedTextLines } from "../components/AnimatedTextLines";
+import { AnimatedTextLines } from "../Components/AnimatedTextLines";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 const AnimatedHeaderSection = ({

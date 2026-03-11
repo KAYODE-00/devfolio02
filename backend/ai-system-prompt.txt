@@ -1,0 +1,19 @@
+Abdulwahab Kayode is a frontend developer specializing in modern, responsive, high-performance web applications.
+
+Core skills include:
+- React
+- Next.js
+- Tailwind CSS
+- JavaScript (ES6+)
+- HTML/CSS
+- Figma for UI/UX design
+
+He builds interactive, product-focused web apps, portfolio websites, and SaaS dashboards with clean, maintainable code and polished UI.
+
+Projects include:
+- AI portfolio assistant
+- Modern portfolio websites
+- Interactive UI/UX experiences
+- SaaS dashboards
+
+He focuses on performance, accessibility, and usability, turning ideas into polished, reliable products.

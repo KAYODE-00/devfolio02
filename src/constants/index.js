@@ -1,183 +1,145 @@
 // index.js
+
 export const servicesData = [
   {
-    title: "Frontend Development",
+    title: "Modern Web Development",
     description:
-      "Your business deserves a fast, secure, and future-proof digital foundation. I develop custom web apps with clean architecture, optimized databases, and seamless integrations—ensuring reliability at every layer.",
+      "I craft fast, scalable, and maintainable web applications that delight users. My approach combines cutting-edge technologies with best practices to ensure high performance, SEO-friendly structures, and pixel-perfect UI.",
     items: [
       {
-        title: "React",
+        title: "Frontend Engineering",
+        description: "(HTML5, CSS3, JavaScript ES6+, React, Tailwind CSS, TypeScript)",
       },
       {
-        title: "Next js",
+        title: "Next.js Applications",
+        description: "(App Router, API Routes, Server Components, Static & Server-Side Rendering, SEO Optimization)",
       },
       {
-        title: "Framer-Motion",
-      },
-      {
-        title: "CSS",
-      },
-      {
-        title: "Tailwind",
-      },
-      {
-        title: "Shadcn UI",
-      },
-      {
-        title: "Accernity UI",
+        title: "Component & UI Systems",
+        description: "(shadcn/ui, Acernity UI, Design Tokens, Reusable & Scalable Component Architecture)",
       },
     ],
   },
   {
-    title: "Backend Devfelopment",
+    title: "Fullstack Integrations",
     description:
-      "I build full stack apss using strong Backend as a service(BAAS) plartforms",
+      "I connect frontends to robust backends, authentication systems, and databases, turning interfaces into fully functional products with seamless user experiences.",
     items: [
       {
-        title: "Supabase",
-      }, {
-        title: "Firebase",
+        title: "Authentication & Security",
+        description: "(Clerk, Supabase Auth, Firebase Auth, OAuth2, JWT Management)",
       },
       {
-        title: "Clerk ",
+        title: "Database & Backend Services",
+        description: "(Supabase, Firebase, Neon PostgreSQL, REST & GraphQL APIs, Serverless Functions)",
       },
       {
-        title: "Neon DB",
-      },
-      {
-        title: "Upload Thing",
+        title: "File Management & Storage",
+        description: "(Supabase Storage, Cloud Storage Integration, Optimized File Upload & Delivery)",
       },
     ],
   },
   {
-    title: "UI/UX",
+    title: "UI/UX & Product Design",
     description:
-      "Slow or hacked apps destroy trust. I harden security (XSS/SQLI protection, OAuth) and optimize bottlenecks so your app stays fast, safe, and scalable as you grow.",
+      "I design intuitive, user-focused interfaces in Figma and convert them into high-quality, responsive React applications that prioritize usability, accessibility, and modern aesthetics.",
     items: [
       {
-        title: "Figma",
+        title: "Wireframing & Prototyping",
+        description: "(Figma Layouts, Interactive Prototypes, Design System Planning)",
+      },
+      {
+        title: "Design-to-Code Workflow",
+        description: "(Pixel-Perfect, Responsive Implementation, Accessibility Best Practices)",
+      },
+      {
+        title: "Landing Pages & SaaS Interfaces",
+        description: "(High-Converting, Modern UI Designs, Optimized for Engagement and UX)",
       },
     ],
   },
-  // {
-  //   title: "Web & Mobile Apps",
-  //   description:
-  //     "A clunky interface can sink even the best ideas. I craft responsive, pixel perfect web and mobile apps (React Native/Flutter) that users love—bridging design and functionality seamlessly.",
-  //   items: [
-  //     {
-  //       title: "Cross-Platform Apps",
-  //       description: "(Single codebase for iOS/Android/Web)",
-  //     },
-  //     {
-  //       title: "PWAs",
-  //       description: "(Offline mode, Push Notifications)",
-  //     },
-  //     {
-  //       title: "E-Commerce",
-  //       description: "(Checkout flows, Payment Gateways, Inventory APIs)",
-  //     },
-  //   ],
-  // },
 ];
+
 export const projects = [
   {
     id: 1,
-    name: "Mobile Accessories E-commerce",
+    name: "Vscode Portfolio Website",
     description:
-      "An online store specializing in phone accessories including cases, chargers, cables, and power banks with MagSafe compatibility.",
-    href: "",
-    image: "/assets/projects/mobile-accessories-store.jpg",
-    bgImage: "/assets/backgrounds/blanket.jpg",
+      "A VS-Code inspired portfolio website showcasing projects with a clean, modern design and seamless user experience. Built with React.js, Tailwind CSS.",
+    githubUrl: "https://github.com/KAYODE-00/portfolio01.git",
+    href: "https://portfolio01-six-inky.vercel.app/",
+    image: "/assets/backgrounds/vscodeportfolio.png",
+    bgImage: "/assets/backgrounds/vscodeportfolio.png",
     frameworks: [
-      { id: 1, name: "React" },
-      { id: 2, name: "Next.js" },
-      { id: 3, name: "Node.js" },
-      { id: 4, name: "MongoDB" },
-      { id: 5, name: "Tailwind CSS" },
+
+      { id: 2, name: "React" },
+      { id: 3, name: "Tailwind CSS" },
+
     ],
   },
   {
     id: 2,
-    name: "Plant Shop E-commerce",
+    name: "SaaS Dashboard Application",
     description:
-      "An online store specializing in rare and decorative plants with a clean, user-friendly interface.",
-    href: "",
-    image: "/assets/projects/plant-shop.jpg",
-    bgImage: "/assets/backgrounds/curtains.jpg",
+      "A multi-page dashboard with protected routes, authentication system, and database integration. Designed in Figma and implemented using modern React architecture.",
+    liveUrl: "",
+    githubUrl: "",
     frameworks: [
-      { id: 1, name: "React" },
-      { id: 2, name: "Next.js" },
-      { id: 3, name: "Stripe API" },
-      { id: 4, name: "Tailwind CSS" },
+      { id: 1, name: "Next.js" },
+      { id: 2, name: "Neon PostgreSQL" },
+      { id: 3, name: "Clerk" },
+      { id: 4, name: "shadcn/ui" },
     ],
   },
   {
     id: 3,
-    name: "Apple Tech Marketplace",
+    name: "High-Converting SaaS Landing Page",
     description:
-      "An e-commerce platform for Apple products and accessories with deals and category filtering.",
-    href: "",
-    image: "/assets/projects/apple-tech-store.jpg",
-    bgImage: "/assets/backgrounds/map.jpg",
+      "A modern SaaS marketing page built with reusable components, responsive design principles, and performance optimization best practices.",
+    liveUrl: "",
+    githubUrl: "",
     frameworks: [
-      { id: 1, name: "Blazor" },
-      { id: 2, name: "ASP.NET Core" },
-      { id: 3, name: "SQL Server" },
-      { id: 4, name: "Bootstrap" },
+      { id: 1, name: "Next.js" },
+      { id: 2, name: "Tailwind CSS" },
+      { id: 3, name: "Acernity UI" },
     ],
-  },
-  {
+  },  {
     id: 4,
-    name: "Electronics & Gadgets Store",
+    name: "High-Converting SaaS Landing Page",
     description:
-      "A multi-category online shop featuring electronics, home appliances, and gaming gear with special offers.",
-    href: "",
-    image: "/assets/projects/electronics-store.jpg",
-    bgImage: "/assets/backgrounds/poster.jpg",
+      "A modern SaaS marketing page built with reusable components, responsive design principles, and performance optimization best practices.",
+    liveUrl: "",
+    githubUrl: "",
     frameworks: [
-      { id: 1, name: "Vue.js" },
-      { id: 2, name: "Laravel" },
-      { id: 3, name: "MySQL" },
-      { id: 4, name: "SCSS" },
+      { id: 1, name: "Next.js" },
+      { id: 2, name: "Tailwind CSS" },
+      { id: 3, name: "Acernity UI" },
     ],
-  },
-  {
+  },  {
     id: 5,
-    name: "Home Decor Marketplace",
+    name: "A ",
     description:
-      "A curated collection of designer home decor items, including furniture and artisan vases.",
-    href: "",
-    image: "/assets/projects/home-decor-store.jpg",
-    bgImage: "/assets/backgrounds/table.jpg",
+      "A responsive youtube clone built using react js,tailwind and youtube api ",
+ githubUrl: "https://github.com/KAYODE-00/portfolio01.git",
+    href: "https://youtube-lite-seven-weld.vercel.app/",
+    image: "/assets/backgrounds/youtubeclone.png",
+    bgImage: "/assets/backgrounds/youtubeclone.png",
     frameworks: [
-      { id: 1, name: "Angular" },
-      { id: 2, name: "Firebase" },
-      { id: 3, name: "GraphQL" },
-      { id: 4, name: "Material UI" },
-    ],
-  },
-  {
-    id: 6,
-    name: "Digital Game Store",
-    description:
-      "A gaming platform featuring discounted titles, top sellers, and genre-based browsing.",
-    href: "",
-    image: "/assets/projects/game-store.jpg",
-    bgImage: "/assets/backgrounds/curtains.jpg",
-    frameworks: [
-      { id: 1, name: "Svelte" },
-      { id: 2, name: "Node.js" },
-      { id: 3, name: "MongoDB" },
-      { id: 4, name: "Chakra UI" },
+
+      { id: 2, name: "React" },
+      { id: 3, name: "Tailwind CSS" },
     ],
   },
 ];
+
 export const socials = [
   { name: "Instagram", href: "https://www.instagram.com/ali.sanatidev/reels/" },
   {
-    name: "Twitter",
+    name: "YouTube",
     href: "https://www.youtube.com/channel/UCZhtUWTtk3bGJiMPN9T4HWA",
   },
   { name: "LinkedIn", href: "https://www.linkedin.com/in/ali-sanati/" },
-  { name: "GitHub", href: "https://github.com/kayode-00" },
+  { name: "GitHub", href: "https://github.com/Ali-Sanati" },
 ];
+
+
