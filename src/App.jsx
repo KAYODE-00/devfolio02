@@ -8,10 +8,9 @@ import About from "./Sections/About";
 import Works from "./Sections/Works";
 import TechStacks from "./Sections/TechStacks";
 import Contact from "./Sections/Contact";
-import { useProgress } from "@react-three/drei";
 import Ai from "./Components/Ai";
 import { Route, Routes } from "react-router-dom";
-import AiMe from "./Sections/AiMe";
+import DigitalVersion from "./Sections/DigitalVersion";
 import Splashscreen from "./Sections/Splashscreen";
 
 const Home = () => (
@@ -33,11 +32,6 @@ const App = () => {
 
   return (
     <ReactLenis root className="relative w-screen min-h-screen overflow-x-auto">
-      {/* {!isReady && (
-        <div className="fixed inset-0 z-[999] flex flex-col items-center justify-center bg-black text-white transition-opacity duration-700 font-light">
-       
-        </div>
-      )} */}
 
       <Splashscreen isReady={isReady} setIsReady={setIsReady} />
 
@@ -53,7 +47,7 @@ const App = () => {
 
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/aime" element={<AiMe />} />
+          <Route path="/digitalVersion" element={<DigitalVersion />} />
         </Routes>
       </div>
     </ReactLenis>

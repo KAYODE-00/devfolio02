@@ -18,11 +18,11 @@ const TechStacks = () => {
     // "JAVASCRIPT",
   ];
   const items2 = [
-    "contact us",
-    "contact us",
-    "contact us",
-    "contact us",
-    "contact us",
+    "contact me",
+    "contact me",
+    "contact me",
+    "contact me",
+    "contact me",
   ];
 
   useGSAP(() => {
@@ -43,9 +43,11 @@ const TechStacks = () => {
       ref={containerRef}
       className="flex flex-col items-center justify-between min-h-screen gap-12 mt-16"
     >
-      <Marquee items={items}         
-      // iconClassName="stroke-gold stroke-2 text-primary"
-        icon="tdesign:code"/>
+      <Marquee
+        items={items}
+        // iconClassName="stroke-gold stroke-2 text-primary"
+        icon="tdesign:code"
+      />
       <div className="overflow-hidden font-light text-center contact-text-responsive">
         <p>
           “ Let’s build a <br />
@@ -58,8 +60,8 @@ const TechStacks = () => {
         items={items2}
         reverse={true}
         className="text-black bg-transparent border-y-2"
-        iconClassName="stroke-gold stroke-2 text-primary"
-        icon="material-symbols-light:square"
+        // iconClassName="stroke-gold stroke-2 text-primary"
+        icon="tdesign:code"
       />
     </section>
   );

@@ -3,16 +3,18 @@ import AnimatedHeaderSection from "../Components/AnimatedHeaderSection";
 import Marquee from "../Components/Marquee";
 import { socials } from "../constants";
 import gsap from "gsap";
+import { Link } from "react-router-dom";
+
 
 const Contact = () => {
   const text = `Got a question, how or project Idea?
-    WE’D love to hear from you and discus further!`;
+    i’D love to hear from you and discus further!`;
   const items = [
-    "just imagin, I code",
-    "just imagin, I code",
-    "just imagin, I code",
-    "just imagin, I code",
-    "just imagin, I code",
+    "I'm a Dev",
+    "I'm a Dev",
+    "I'm a Dev",
+    "I'm a Dev",
+    "I'm a Dev",
   ];
   useGSAP(() => {
     gsap.from(".social-link", {
@@ -43,10 +45,20 @@ const Contact = () => {
         <div className="flex px-10 font-light text-white uppercase lg:text-[32px] text-[26px] leading-none mb-10">
           <div className="flex flex-col w-full gap-10">
             <div className="social-link">
+              <h2>Message Ai</h2>
+              <div className="w-full h-px my-2 bg-white/30" />
+              <Link
+                to="/digitalVersion"
+                className="text-xl tracking-widest hover:text-white transition-colors duration-300"
+              >
+                AI
+              </Link>
+            </div>
+            <div className="social-link">
               <h2>E-mail</h2>
               <div className="w-full h-px my-2 bg-white/30" />
               <p className="text-xl tracking-wider lowercase md:text-2xl lg:text-3xl">
-                abdulwahabkayode00@gmail.com
+                abdulwahabkayode001@gmail.com
               </p>
             </div>
             <div className="social-link">

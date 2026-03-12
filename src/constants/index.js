@@ -77,50 +77,12 @@ export const projects = [
 
     ],
   },
-  {
-    id: 2,
-    name: "SaaS Dashboard Application",
-    description:
-      "A multi-page dashboard with protected routes, authentication system, and database integration. Designed in Figma and implemented using modern React architecture.",
-    liveUrl: "",
-    githubUrl: "",
-    frameworks: [
-      { id: 1, name: "Next.js" },
-      { id: 2, name: "Neon PostgreSQL" },
-      { id: 3, name: "Clerk" },
-      { id: 4, name: "shadcn/ui" },
-    ],
-  },
-  {
-    id: 3,
-    name: "High-Converting SaaS Landing Page",
-    description:
-      "A modern SaaS marketing page built with reusable components, responsive design principles, and performance optimization best practices.",
-    liveUrl: "",
-    githubUrl: "",
-    frameworks: [
-      { id: 1, name: "Next.js" },
-      { id: 2, name: "Tailwind CSS" },
-      { id: 3, name: "Acernity UI" },
-    ],
-  },  {
-    id: 4,
-    name: "High-Converting SaaS Landing Page",
-    description:
-      "A modern SaaS marketing page built with reusable components, responsive design principles, and performance optimization best practices.",
-    liveUrl: "",
-    githubUrl: "",
-    frameworks: [
-      { id: 1, name: "Next.js" },
-      { id: 2, name: "Tailwind CSS" },
-      { id: 3, name: "Acernity UI" },
-    ],
-  },  {
+   {
     id: 5,
-    name: "A ",
+    name: "Youtube Clone",
     description:
       "A responsive youtube clone built using react js,tailwind and youtube api ",
- githubUrl: "https://github.com/KAYODE-00/portfolio01.git",
+ githubUrl: "https://github.com/KAYODE-00/Youtube-Lite.git",
     href: "https://youtube-lite-seven-weld.vercel.app/",
     image: "/assets/backgrounds/youtubeclone.png",
     bgImage: "/assets/backgrounds/youtubeclone.png",
@@ -133,13 +95,13 @@ export const projects = [
 ];
 
 export const socials = [
-  { name: "Instagram", href: "https://www.instagram.com/ali.sanatidev/reels/" },
+  { name: "Instagram", href: "https://www.instagram.com/ka_yode_00" },
   {
-    name: "YouTube",
-    href: "https://www.youtube.com/channel/UCZhtUWTtk3bGJiMPN9T4HWA",
+    name: "X",
+    href: "https://x.com/Liw_Kay",
   },
-  { name: "LinkedIn", href: "https://www.linkedin.com/in/ali-sanati/" },
-  { name: "GitHub", href: "https://github.com/Ali-Sanati" },
+  { name: "LinkedIn", href: "https://www.linkedin.com/in/abdulwahab-kayode-0ab8ab394/" },
+  { name: "GitHub", href: "https://github.com/KAYODE-00" },
 ];
 
 

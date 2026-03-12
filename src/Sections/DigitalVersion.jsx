@@ -55,7 +55,7 @@ const safeLoadChats = () => {
   }
 };
 
-const AiMe = () => {
+const DigitalVersion = () => {
   const [chats, setChats] = useState(safeLoadChats);
   const [currentChatId, setCurrentChatId] = useState(() => safeLoadChats()[0].id);
   const [inputText, setInputText] = useState("");
@@ -312,6 +312,8 @@ const AiMe = () => {
             </div>
           )}
 
+          
+
           <div className="mx-auto max-w-3xl space-y-6">
             {currentMessages.map((msg) => (
               <div key={msg.id} className="flex items-start gap-3">
@@ -382,7 +384,7 @@ const AiMe = () => {
                   }
                 }}
                 placeholder="Message Kayode"
-                className="max-h-[200px] min-h-[40px] flex-1 resize-none bg-transparent px-2 py-2 text-sm outline-none placeholder:text-white/40"
+                className="max-h-50 min-h-10 flex-1 resize-none bg-transparent px-2 py-2 text-sm outline-none placeholder:text-white/40"
                 disabled={isSending}
               />
               <button
@@ -403,4 +405,4 @@ const AiMe = () => {
   );
 };
 
-export default AiMe;
+export default DigitalVersion;

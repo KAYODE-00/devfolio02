@@ -26,7 +26,7 @@ export default function Orb({ scale = 1 }) {
         metalness={0.7}
         clearcoat={0.9}
         clearcoatRoughness={0.4}
-        reflectivity={0.9}
+        reflectivity={1}
         emissive="#3b3428"
         emissiveIntensity={0.25}
       />

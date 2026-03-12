@@ -2,7 +2,9 @@ import React, { useEffect, useRef } from "react";
 import { socials } from "../constants";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
-import { Link } from "react-scroll";
+import { Link as ScrollLink } from "react-scroll";
+import { Link as RouterLink } from "react-router-dom";
+
 
 const Navbar = () => {
   const linksRef = useRef([]);
@@ -109,9 +111,9 @@ const Navbar = () => {
         <div className="flex flex-col text-5xl gap-y-2 md:text-6xl lg:text-8xl">
           {navigations.map((nav, i) => (
             <div key={i} ref={(el) => (linksRef.current[i] = el)}>
-              <Link to={`${nav}`} smooth={true} offset={0}  duration={2000} className="transition-all duration-300 cursor-pointer hover:text-white">
+              <ScrollLink to={`${nav}`} smooth={true} offset={0}  duration={2000} className="transition-all duration-300 cursor-pointer hover:text-white">
                 {nav}
-              </Link>
+              </ScrollLink>
             </div>
           ))}
         </div>
@@ -122,10 +124,13 @@ const Navbar = () => {
           <div className="font-light">
             <p className="tracking-wider text-white/50">E-mail</p>
             <p className="text-xl tracking-widest">
-              abdulwahabkayode00@gmail.com
+              abdulwahabkayode001@gmail.com
             </p>{" "}
           </div>
           <div className="font-light">
+            <RouterLink to="/digitalVersion" className="inline-flex items-center gap-2 text-xl tracking-widest hover:text-white transition-colors duration-300">
+              AI
+            </RouterLink>
             <p className="tracking-wider text-white/50">Social Media</p>
             <div className="flex flex-col flex-wrap md:flex-row gap-x-2">
               {socials.map((social, ind) => (
