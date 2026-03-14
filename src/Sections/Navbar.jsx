@@ -101,7 +101,7 @@ const Navbar = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const navigations = ["home", "services", "about", "work", "contact"];
+  const navigations = ["home","work",  "about","services",  "contact"];
   return (
     <>
       <nav
@@ -114,8 +114,13 @@ const Navbar = () => {
               <ScrollLink to={`${nav}`} smooth={true} offset={0}  duration={2000} className="transition-all duration-300 cursor-pointer hover:text-white">
                 {nav}
               </ScrollLink>
+              
             </div>
+            
           ))}
+            <RouterLink to="/digitalVersion" className="text-5xl gap-y-2 md:text-6xl lg:text-8xl">
+              AI
+            </RouterLink>
         </div>
         <div
           ref={contactRef}
@@ -128,9 +133,7 @@ const Navbar = () => {
             </p>{" "}
           </div>
           <div className="font-light">
-            <RouterLink to="/digitalVersion" className="inline-flex items-center gap-2 text-xl tracking-widest hover:text-white transition-colors duration-300">
-              AI
-            </RouterLink>
+           
             <p className="tracking-wider text-white/50">Social Media</p>
             <div className="flex flex-col flex-wrap md:flex-row gap-x-2">
               {socials.map((social, ind) => (

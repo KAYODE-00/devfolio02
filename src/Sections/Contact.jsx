@@ -16,6 +16,18 @@ const Contact = () => {
     "I'm a Dev",
     "I'm a Dev",
   ];
+    const items2 = [
+    "HTML",
+    "CSS",
+    "JAVASCRIPT",
+    "TYPESCRIPT",
+    "REACT",
+    "NEXT JS",
+    "SUPABASE",
+    "FIREBASE",
+    "CLERK",
+    // "JAVASCRIPT",
+  ];
   useGSAP(() => {
     gsap.from(".social-link", {
       y: 100,
@@ -29,7 +41,13 @@ const Contact = () => {
       },
     });
   }, []);
-  return (
+  return (<>
+
+          <Marquee
+            items={items2}
+            // iconClassName="stroke-gold stroke-2 text-primary"
+            icon="tdesign:code"
+          />
     <section
       id="contact"
       className="flex flex-col justify-between min-h-screen bg-black"
@@ -90,6 +108,7 @@ const Contact = () => {
       </div>
       <Marquee items={items} className="text-white bg-transparent" />
     </section>
+    </>
   );
 };
 

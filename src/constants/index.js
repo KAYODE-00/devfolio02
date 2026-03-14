@@ -76,6 +76,21 @@ export const projects = [
       { id: 3, name: "Tailwind CSS" },
 
     ],
+  }, {
+    id: 2,
+    name: "Spotify clone",
+    description:
+      "A VS-Code inspired portfolio website showcasing projects with a clean, modern design and seamless user experience. Built with React.js, Tailwind CSS.",
+    githubUrl: "https://github.com/KAYODE-00/portfolio01.git",
+    href: "https://portfolio01-six-inky.vercel.app/",
+    image: "/assets/backgrounds/spotifyClone.png",
+    bgImage: "/assets/backgrounds/spotifyClone.png",
+    frameworks: [
+
+      { id: 2, name: "React" },
+      { id: 3, name: "Tailwind CSS" },
+
+    ],
   },
    {
     id: 5,

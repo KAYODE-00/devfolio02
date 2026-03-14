@@ -17,11 +17,10 @@ const Home = () => (
   <>
     <Navbar />
     <Hero />
-    <ServiceSummary />
-    <Services />
+    <ServiceSummary /> <Works />
     <About />
-    <Works />
-    <TechStacks />
+    <Services />
+    {/* <TechStacks /> */}
     <Contact />
   </>
 );
@@ -29,10 +28,8 @@ const Home = () => (
 const App = () => {
   const [isReady, setIsReady] = useState(false);
 
-
   return (
     <ReactLenis root className="relative w-screen min-h-screen overflow-x-auto">
-
       <Splashscreen isReady={isReady} setIsReady={setIsReady} />
 
       <div
@@ -40,9 +37,6 @@ const App = () => {
           isReady ? "opacity-100" : "opacity-0"
         } transition-opacity duration-1000`}
       >
-
-
-        
         <Ai />
 
         <Routes>
